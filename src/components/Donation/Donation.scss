@@ -1,0 +1,28 @@
+.donation-wrapper {
+  .donation {
+    &--title {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 42px;
+
+      color: #1C3739;
+    }
+    &__card {
+      box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      padding: 13px;
+      &--success {
+        background: rgba(81, 155, 120, 0.8);
+      }
+      &--success-2 {
+        background: rgba(150, 189, 97, 0.8);
+      }
+    }
+  }
+}

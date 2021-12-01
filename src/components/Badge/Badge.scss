@@ -1,0 +1,42 @@
+.challenge-wrapper {
+  .challenge {
+    &__box {
+      //width: 140px;
+      //height: 180px;
+      left: 292px;
+      top: 488px;
+      padding: 10px;
+
+      background: rgba(255, 255, 255, 0.95);
+      box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      &__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &--name {
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 14px;
+          /* identical to box height */
+
+          text-align: center;
+
+          color: #1C3739;
+        }
+      }
+      &--title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        padding-top: 20px;
+        color: #1C3739;
+      }
+    }
+  }
+}
